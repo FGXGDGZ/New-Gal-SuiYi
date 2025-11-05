@@ -1,0 +1,32 @@
+; 初始场景，以及特效演示
+bgm:s_Title.mp3;
+unlockBgm:s_Title.mp3 -name=雲を追いかけて;
+intro:在这个世界上|有一些人，他们在网上健谈无比，能言会道|但是在现实里却反差极大，紧张时候甚至连话都说不明白 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:而“随意”也正是其中的一员 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:带立绘.jpg -next;
+changeFigure:选择立绘文件 -left -next;
+setAnimation:enter-from-left -target=fig-left -next;
+随意:哈...哈...哈...（喘气），终于从可怕的社交中逃出来了。;
+; 模版修改演示
+miniAvatar:suiyi.webp;
+随意 心理活动:呜呜呜好吓人啊社交活动！！！！！！;
+miniAvatar:none;
+随意:唉，都说了新生欢迎会我不想参加，还拉着我去。;
+随意:现实生活还是太先进了，不适合我这种网络原始人......;
+算了，还是早点回家比较好。;
+:“超市限时特价大促销！任意三包泡面可免费赠送一瓶饮料！……”就在此时一阵吆喝声从不远处的超市门口响了起来。;
+:听见叫卖声的随意下意识的竖起耳朵，目光看向了超市门口那熙熙攘攘的人群。;
+miniAvatar:suiyi.webp;
+随意 心理活动:呜哇哇哇哇哇！！！人好多啊......|这么多人，结账的时候一定很尬。我肯定会晕厥过去的。;
+:买还是不买？;
+choose:买:T1 X1.txt|不买:T1 X2 END.txt;
+随意 心理活动:可是，这个月生活费也见底了......再不抢促销商品的话，我真的很有可能饿死在家里啊！;
+miniAvatar:none;
+随意:咕咕咕~~~（肚子）|......欸，肚子正好也有点饿了。;
+呃啊！算了不多想了，我还不想饿死，至少先让我不要再单身下去再死吧！;
+:于是随意在饥饿的驱使之下，壮着胆子一边发抖一边挤进人群之中。;
+;
+choose:目前正在制作中:选择场景文件|敬请期待:选择场景文件;
+end;
+end;
+end;

@@ -1,0 +1,8 @@
+miniAvatar:none;
+随意:咕咕咕~~~（肚子）|哇，肚子开始抱怨了……;
+miniAvatar:suiyi.webp;
+随意 心理活动:虽然肚子好饿......但是我真的好害怕，我该怎么办，呜呜呜......;
+miniAvatar:none;
+:虽然随意的肚子很饿，但是巨大的社恐心理让他寸步难进，只得以饿着肚子回家。;
+intro:结局1：饿着肚子又一天（BAD）|随意因为社恐没能买到特价商品，而他剩下的生活费也不足之以支撑今天的伙食费了。|头晕乏力的随意回到家中，只能靠着看小红车和睡觉来缓解腹内的不适感...... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;
